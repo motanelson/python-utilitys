@@ -17,5 +17,5 @@ print("\033c\033[42;30m\n");
 menu0=menus();
 menu0.adds("1=hello world");
 menu0.adds("2=hi");
-menu0.adds("1=there");
+menu0.adds("3=there");
 print (menu0.report())
