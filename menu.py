@@ -5,7 +5,7 @@ class menus():
 	def adds(menuss,valuess):
 		menuss.values=menuss.values+valuess+menuss.returnsep;
 	def clears(menuss):
-		values="0=Exit\n";
+		menuss.values="0=Exit\n";
 	def report(menuss):
 		print(menuss.values);
 		try: 
